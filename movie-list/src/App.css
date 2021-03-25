@@ -12,6 +12,10 @@
   border: solid red 2px;
 }
 
+body {
+  background-color: #0000;
+}
+
 h1 {
   display: flex;
   justify-content: center;
