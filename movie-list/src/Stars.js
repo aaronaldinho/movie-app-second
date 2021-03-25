@@ -5,6 +5,8 @@ const Stars = (props) => {
 
         console.log(Stars)
 
+        
+
      );
 }
  
