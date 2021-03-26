@@ -1,17 +1,18 @@
 
 import './App.css';
+import React from 'react'
 
-
+//components
+import Header from './components/Header.js'
+import MoviesList from './components/Movies'
+import Buttons from'./components/Button-Sort'
 
 //
+class App extends React.Component{
 
-function App() {
-  return (
-    <div className="App">
-      <HEADER/>
-      <h1>Movies</h1>
-    </div>
-  );
+  state ={
+    MoviesList:[]
+  }
+
+
 }
-
-export default App;

@@ -1,19 +1,26 @@
-import REACT from 'react'
+// import REACT from 'react'
+
+import Logo from './logo.jpg'
 
 const Header = (props) => {
      return ( 
-
-<div class="container">
-    <div class="row row-cols-4">
-        <div class="col">Column</div>
-        <div class="col">Column</div>
-        <div class="col">Column</div>
-        <div class="col">Column</div>
-  </div>
-</div>
-
-
-      );
+            
+            <div className="header-nav">
+                <div>
+                <img className='logo-nav' src={Logo} alt="logo"/>
+                </div>
+                <div>
+                <h1>Movies you should watch before you die!</h1>
+                </div>
+                <div >
+                    <ul className='options-nav'>
+                        <li> <a href="">Home</a> </li>
+                        <li> <a href="">Search</a> </li>
+                        <li> <a href="">Contact</a> </li>
+                    </ul>
+                </div>
+            </div>
+           );
 }
  
 export default Header;
