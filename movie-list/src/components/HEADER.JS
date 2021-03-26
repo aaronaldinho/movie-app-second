@@ -14,9 +14,9 @@ const Header = (props) => {
                 </div>
                 <div >
                     <ul className='options-nav'>
-                        <li> <a href="">Home</a> </li>
+                        {/* <li> <a href="">Home</a> </li>
                         <li> <a href="">Search</a> </li>
-                        <li> <a href="">Contact</a> </li>
+                        <li> <a href="">Contact</a> </li> */}
                     </ul>
                 </div>
             </div>

@@ -1,39 +1,15 @@
-// const Buttons = () => {
 
-//     class App extends React.component{
-//         state= {
-//             MovieList: movies
-//         }
-//     }
-    
-//     reset(){
-//         this.setsState({
-//             MovieList:[]
-//         })
-//     }
-    
-//     fetch(){
-//         this.setsState({
-//             MoviesList:MoviesList
-//         })
-//     }
-    
-
-//     render(){
-//     return(
-//         <div className='App'>
-//             <Header/>
-//             <button onClick = {e=> this.reset()}>Reset</button>
-//             <button onClick = {e=> this.fetch()}>fe</button>
-
-//         </div>
-//     )
+// const ButtonsSort = () => {
+//     return ( 
+//         <select onChange={e => this.orderMovies()} name="" id="">
+//             <option value="newest"> NEWEST </option>
+//             <option value="oldest"> OLDEST </option>
+//             <option value="A-Z">A-Z</option>
+//             <option value="Z-A">Z-A</option>
+//         </select>
+//      );
 // }
-// };
  
-// export default Buttons;
-
-// import MoviesList from "./Movies"
-// import React from React
+// export default ButtonsSort;
 
 
