@@ -10,7 +10,7 @@ const Header = (props) => {
                 <img className='logo-nav' src={Logo} alt="logo"/>
                 </div>
                 <div>
-                <h1>Movies you should watch before you die!</h1>
+                <h1 className='title-h1'>Movies you should watch before you die!</h1>
                 </div>
                 <div >
                     <ul className='options-nav'>
